@@ -30,6 +30,9 @@ img.avatar {
     padding: 3.7px;
     border: #0FA564 solid 4px;
 }
+.icon {
+    width: 10%;
+}
 
 h1 {
     font-size: 32px;
@@ -51,6 +54,10 @@ ul {
     margin: 48px 0;
 }
 
+i {
+    padding-right: 4px;
+}
+
 ul li a {
     height: 53px;
     display: flex;
@@ -67,7 +74,8 @@ ul li a {
 }
 
 ul li a:hover {
-    background: #CCFCEE;
+    background: #08C18A;
+    color: #00082F;
 }
 
 footer {
