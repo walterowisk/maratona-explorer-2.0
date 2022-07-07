@@ -8,8 +8,17 @@ a {
     text-decoration: none;
 }
 
+html{
+    /* variáveis */
+    --bg-color: #EDF2FF;
+    --text-color: #00082F;
+}
+
+
+
 body {
-    background: #EDF2FF;
+    background: var(--bg-color);
+    color: var(--text-color);
     font-family: 'Roboto', sans-serif;
 }
 
@@ -36,7 +45,6 @@ img.avatar {
 
 h1 {
     font-size: 32px;
-    color: #00082F;
     margin-top: 24px;
     margin-bottom: 8px;
 }
@@ -44,7 +52,6 @@ h1 {
 .username {
     font-family: 'Roboto Mono', monospace;
     font-weight: 400;
-    color: #00082F;
     opacity: .8;
     font-size: 18px;
 }
@@ -81,7 +88,6 @@ ul li a:hover {
 footer {
     font-weight: 500;
     font-size: 12px;
-    color: #00082F;
     opacity: 0.6;
     transition: opacity 400ms;
 }
@@ -91,5 +97,5 @@ footer:hover {
 }
 
 footer a {
-    color: #00082F;
+    color: var(--text-color);
 }
