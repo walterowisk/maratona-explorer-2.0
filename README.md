@@ -4,7 +4,7 @@
 <a><img  src="https://img.shields.io/badge/Boosting%20people-ROCKETSEAT-blueviolet"  alt="Badge Rocketseat"> </a>
 </div>
 
-<div  align="center"> <img  src="#"  alt="Gif da Página"  width="680"> </div>
+<div  align="center"> <img  src="https://i.imgur.com/GjobhoA.png"  alt="Gif da Página"  width="680"> </div>
 
 ---
 
@@ -25,23 +25,7 @@ Evento promovido pela Rocketseat com a proposta de criação de um site do zero.
 
   
 
-## :wrench: Alterações & Melhorias
 
-Após reproduzir o projeto exatamente como foi desenvolvido na maratona resolvi fazer minhas estilizações para fins de treinamento. As mudanças foram as seguintes:
-
-* Alteração do fundo para o `background-color: #1B0430`;
-
-* Troca da `font-family` de sans-serif padrão para Amaranth;
-
-* Alteração da cor da fonte de branco para `color: #1DD3B0`;
-
-* Troca da imagem principal da bola de cristal pelo png de um mago;
-
-* Inserção de um segundo botão com a função de apagar a pergunta no input;
-
-* Alterações diversas em tamanhos e proporções.
-
-  
 
 
 ## :battery: Stack Utilizada
@@ -54,13 +38,8 @@ Após reproduzir o projeto exatamente como foi desenvolvido na maratona resolvi 
 
 - ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
-  
-
-- ![Javascript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-
-  
-
-  
+## :link: Deploy
+ https://walterowisk.github.io/maratona-explorer-2.0/
 
 ## :memo: Licença
 
