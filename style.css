@@ -12,9 +12,21 @@ html{
     /* variáveis */
     --bg-color: #EDF2FF;
     --text-color: #00082F;
+    --primary-color: #0FA564;
+    --primary-color-dark: #0C834F;
 }
 
+body.dark-blue {
+    --bg-color: #00082F;
+    --text-color: #EDF2FF;
+}
 
+body.pink {
+    --bg-color: #fff0f6;
+    --text-color: #1f000b;
+    --primary-color: #d6336c;
+    --primary-color-dark: #a61e4d;
+}
 
 body {
     background: var(--bg-color);
@@ -25,7 +37,7 @@ body {
 .container {
     width: 300px;
     text-align: center;
-    margin: 60px auto;
+    margin: 36px auto;
 }
 
 img {
@@ -37,10 +49,7 @@ img.avatar {
     height: 100px;
     width: 100px;
     padding: 3.7px;
-    border: #0FA564 solid 4px;
-}
-.icon {
-    width: 10%;
+    border: var(--primary-color) solid 4px;
 }
 
 h1 {
@@ -49,16 +58,22 @@ h1 {
     margin-bottom: 8px;
 }
 
-.username {
+.bio {
     font-family: 'Roboto Mono', monospace;
     font-weight: 400;
     opacity: .8;
     font-size: 18px;
 }
 
+.badges i {
+    font-size: 28px;
+    color: var(--primary-color);
+    margin: 12px 10px 8px 10px;
+}
+
 ul {
     list-style: none;
-    margin: 48px 0;
+    margin: 20px 0;
 }
 
 i {
@@ -70,7 +85,7 @@ ul li a {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #0FA564;
+    background: var(--primary-color);
     color: white;
     text-transform: uppercase;
     font-size: 14px;
@@ -81,7 +96,7 @@ ul li a {
 }
 
 ul li a:hover {
-    background: #08C18A;
+    background: var(--primary-color-dark);
     color: #00082F;
 }
 
