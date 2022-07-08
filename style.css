@@ -7,15 +7,14 @@
 a {
     text-decoration: none;
 }
-
+/*
 html{
-    /* variáveis */
     --bg-color: #E4E0F5;
     --text-color: #07050F;
     --primary-color: #6C56C8;
     --primary-color-dark: #4E37A9;
 }
-/*
+
 body.dark-blue {
     --bg-color: #00082F;
     --text-color: #EDF2FF;
@@ -98,7 +97,7 @@ ul li a {
     font-size: 14px;
     letter-spacing: 1px;
     margin-bottom: 16px;
-    border-radius: 6px;
+    border-radius: 24px;
     transition: background 400ms;
 }
 
