@@ -13,9 +13,9 @@ html{
     --bg-color: #E4E0F5;
     --text-color: #07050F;
     --primary-color: #6C56C8;
-    --primary-color-dark: #5F46C3;
+    --primary-color-dark: #4E37A9;
 }
-
+/*
 body.dark-blue {
     --bg-color: #00082F;
     --text-color: #EDF2FF;
@@ -27,10 +27,12 @@ body.pink {
     --primary-color: #d6336c;
     --primary-color-dark: #a61e4d;
 }
-
+*/
 body.dark-purple {
     --bg-color: #07050F;
     --text-color: #E4E0F5;
+    --primary-color: #6C56C8;
+    --primary-color-dark: #4E37A9;
 }
 
 body {
@@ -71,7 +73,7 @@ h1 {
 }
 
 .badges i {
-    font-size: 28px;
+    font-size: 32px;
     color: var(--primary-color);
     margin: 12px 10px 8px 10px;
 }
@@ -91,7 +93,7 @@ ul li a {
     align-items: center;
     justify-content: center;
     background: var(--primary-color);
-    color: var(--bg-color);
+    color: var(--text-color);
     text-transform: uppercase;
     font-size: 14px;
     letter-spacing: 1px;
@@ -102,7 +104,7 @@ ul li a {
 
 ul li a:hover {
     background: var(--primary-color-dark);
-    color: var(--text-color);
+    color: var(--bg-color);
 }
 
 footer {
